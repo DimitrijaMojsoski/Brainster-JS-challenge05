@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Click on button (Create Email) to start creating message</h3>
+    <form>
+      <label for="fromInput">From:</label>
+      <input type="text" id="fromInput" readonly />
+
+      <label for="toInput">To:</label>
+      <input type="text" id="toInput" readonly />
+
+      <label for="subjectInput">Subject:</label>
+      <input type="text" id="subjectInput" readonly />
+
+      <label for="messageInput">Message:</label>
+      <textarea id="messageInput" readonly></textarea>
+
+      <button type="button" onclick="createEmailMessage()">Create Email</button>
+    </form>
+  </body>
+  <script src="exer3.js"></script>
+</html>
